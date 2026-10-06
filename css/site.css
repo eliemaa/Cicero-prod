@@ -1328,3 +1328,17 @@ a.tlink[href="post-case-is-the-output.html"]:not(p .tlink):hover{background:var(
 section:has(#prob-h) .stat .n,section:has(#case-h) .stat .n{color:var(--burgundy)}
 
 #arabic-spotlight,#edrm-s,#studies-s{scroll-margin-top:110px}
+
+/* Next.js routes retain the original booking button treatment. */
+a.btn[href^="/demo"]{background:var(--burgundy);border-color:var(--burgundy);color:#fff}
+a.btn[href^="/demo"]:hover{background:#561020;border-color:#561020;opacity:1}
+a.btn.light[href^="/languages"]:hover{background:var(--burgundy);border-color:var(--burgundy);color:#fff;opacity:1}
+a.tlink[href^="/case-late-production"]:not(p .tlink),a.tlink[href^="/insights/post-case-is-the-output"]:not(p .tlink){background:#0b0b0b;border-color:#0b0b0b;color:#fff}
+a.tlink[href^="/case-late-production"]:not(p .tlink):hover,a.tlink[href^="/insights/post-case-is-the-output"]:not(p .tlink):hover{background:var(--burgundy);border-color:var(--burgundy);color:#fff}
+section:has(#sec-home-h) a.tlink[href^="/security"]:not(p .tlink){background:var(--paper);border-color:var(--paper);color:var(--stage)}
+section:has(#sec-home-h) a.tlink[href^="/security"]:not(p .tlink):hover{background:var(--burgundy);border-color:var(--burgundy);color:#fff}
+#cms-post-list .post-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:40px}
+.prose table{width:100%;border-collapse:collapse;font-size:.875rem;margin:24px 0}
+.prose td,.prose th{border:1px solid var(--rule);padding:12px;vertical-align:top;text-align:start;overflow-wrap:anywhere}
+.prose th{font-weight:500;background:var(--panel)}
+.prose img{max-width:100%;height:auto}

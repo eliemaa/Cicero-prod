@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "case-late-production",
+    "title": "Three weeks, four people, forty thousand documents · Cicero",
+    "file": "case-late-production.html"
+  },
+  {
+    "slug": "demo",
+    "title": "Book a working session · Cicero",
+    "file": "demo.html"
+  },
+  {
+    "slug": "home",
+    "title": "Cicero",
+    "file": "index.html"
+  },
+  {
+    "slug": "insights",
+    "title": "Insights · Cicero",
+    "file": "insights.html"
+  },
+  {
+    "slug": "languages",
+    "title": "Languages · Cicero",
+    "file": "languages.html"
+  },
+  {
+    "slug": "platform",
+    "title": "Platform · Cicero",
+    "file": "platform.html"
+  },
+  {
+    "slug": "pricing",
+    "title": "Pricing · Cicero",
+    "file": "pricing.html"
+  },
+  {
+    "slug": "security",
+    "title": "Security · Cicero",
+    "file": "security.html"
+  }
+]
